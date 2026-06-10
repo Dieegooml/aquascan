@@ -487,11 +487,7 @@
 <!-- NAV -->
 <nav>
   <a class="nav-brand" href="#">
-    <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="20" cy="20" r="19" fill="#E1F5EE" stroke="#1D9E75" stroke-width="1.5"/>
-      <path d="M20 8 C20 8 12 18 12 24 C12 28.4 15.6 32 20 32 C24.4 32 28 28.4 28 24 C28 18 20 8 20 8Z" fill="#1D9E75" opacity="0.9"/>
-      <path d="M16 26 C17 28 18.5 29 20 29" stroke="#9FE1CB" stroke-width="1.5" stroke-linecap="round"/>
-    </svg>
+    <img src="logo.jpeg" alt="AquaScan logo" style="width:36px; height:36px; object-fit:contain; border-radius:6px;" />
     AquaScan
   </a>
   <ul class="nav-links">
@@ -508,6 +504,17 @@
   <div class="hero-badge">🌊 Tecnología IoT para el agua</div>
   <h1>Monitoreo de calidad del agua <span>en tiempo real</span></h1>
   <p class="hero-sub">AquaScan es un dispositivo portátil que mide pH y TDS del agua al instante, con alertas visuales y dashboard web. Desarrollado para comunidades, municipalidades y empresas mineras.</p>
+
+  <div style="display:flex; justify-content:center; align-items:flex-end; gap:1.5rem; flex-wrap:wrap; margin-bottom:2rem;">
+    <img src="mascota.jpeg" alt="Aquí, la mascota de AquaScan" style="width:110px; height:110px; object-fit:contain; filter:drop-shadow(0 4px 12px rgba(29,158,117,0.18));" />
+    <div style="text-align:left; max-width:300px;">
+      <p style="font-size:0.78rem; font-weight:700; color:var(--teal-dark); letter-spacing:0.06em; text-transform:uppercase; margin-bottom:4px;">Aquí te lo explica</p>
+      <div style="background:#fff; border:1px solid var(--teal-light); border-radius:12px; border-bottom-left-radius:2px; padding:10px 14px; font-size:0.9rem; color:var(--text-muted); line-height:1.5;">
+        "¡Hola! Soy Aquí 💧<br>Tu agua puede estar contaminada sin que lo sepas. ¡Yo te aviso al instante!"
+      </div>
+    </div>
+  </div>
+
   <div class="hero-btns">
     <a href="#contacto" class="btn-primary">Solicitar información</a>
     <a href="#producto" class="btn-secondary">Conocer el dispositivo</a>
@@ -545,9 +552,17 @@
 <!-- PROBLEMA -->
 <section id="problema">
   <div class="section-inner">
-    <div class="section-tag">El problema</div>
-    <h2 class="section-title">El agua en zonas mineras no es segura sin verificación</h2>
-    <p class="section-desc">Las comunidades rurales y periurbanas de Arequipa no tienen acceso a herramientas accesibles para saber si el agua que consumen es apta, especialmente en zonas afectadas por actividad minera.</p>
+    <div style="display:flex; align-items:flex-start; gap:2rem; flex-wrap:wrap; margin-bottom:2.5rem;">
+      <div style="flex:1; min-width:240px;">
+        <div class="section-tag">El problema</div>
+        <h2 class="section-title">El agua en zonas mineras no es segura sin verificación</h2>
+        <p class="section-desc" style="margin-bottom:0;">Las comunidades rurales y periurbanas de Arequipa no tienen acceso a herramientas accesibles para saber si el agua que consumen es apta, especialmente en zonas afectadas por actividad minera.</p>
+      </div>
+      <div style="display:flex; flex-direction:column; align-items:center; gap:8px; flex-shrink:0;">
+        <img src="mascota.jpeg" alt="Aquí preocupada" style="width:90px; height:90px; object-fit:contain; filter:drop-shadow(0 2px 8px rgba(0,0,0,0.1));" />
+        <p style="font-size:0.75rem; color:var(--text-muted); text-align:center; max-width:100px; line-height:1.4;">"Esto me preocupa..."</p>
+      </div>
+    </div>
     <div class="problema-grid">
       <div class="problema-card">
         <h3>Sin herramientas accesibles</h3>
@@ -929,6 +944,7 @@
 
 <!-- CTA -->
 <section id="contacto" class="cta-section">
+  <img src="mascota.jpeg" alt="Aquí animando" style="width:90px; height:90px; object-fit:contain; margin-bottom:1rem; filter:drop-shadow(0 2px 12px rgba(0,0,0,0.2));" />
   <h2>¿Tu organización necesita AquaScan?</h2>
   <p>Completa el formulario y nos ponemos en contacto para coordinar una demostración o prueba piloto gratuita.</p>
   <div class="lead-form">
