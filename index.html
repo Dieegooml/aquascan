@@ -485,11 +485,12 @@
     .mascot-hero-img {
       width: 160px;
       height: 160px;
-      object-fit: contain;
+      object-fit: cover;
       flex-shrink: 0;
       filter: drop-shadow(0 6px 18px rgba(29,158,117,0.22));
       position: relative;
       z-index: 2;
+      border-radius: 50%;
     }
     .mascot-bubble {
       position: relative;
@@ -538,8 +539,9 @@
     .mascot-side-img {
       width: 120px;
       height: 120px;
-      object-fit: contain;
+      object-fit: cover;
       filter: drop-shadow(0 4px 12px rgba(0,0,0,0.08));
+      border-radius: 50%;
     }
     .mascot-side-bubble {
       background: var(--teal-xlight);
@@ -566,9 +568,10 @@
     .mascot-cta-img {
       width: 180px;
       height: 180px;
-      object-fit: contain;
+      object-fit: cover;
       filter: drop-shadow(0 6px 24px rgba(0,0,0,0.25));
       flex-shrink: 0;
+      border-radius: 50%;
     }
     .cta-content { text-align: left; flex: 1; min-width: 260px; }
     .cta-content h2 { text-align: left; }
